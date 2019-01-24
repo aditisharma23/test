@@ -1,0 +1,13 @@
+xampp with latest version( PHP version: 7.2.6 )
+
+create database with name task in phpmyadmin
+
+Update .env  file
+    DB_DATABASE=task (your created database name)
+    DB_USERNAME=root (your database username)
+    DB_PASSWORD=     (Your database password)
+  
+Run command in cmd prompt-  php artisan migrate
+
+update .htaccess file ( RewriteBase /testjob/  )
+replace testjob with your folder name.
